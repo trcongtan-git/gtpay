@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <%- include('layouts/head'); %>
+
+    <!-- Home Specific Tags -->
+    <meta name="description" content="Express, MongoDB, and Node.js template stylized with Bootstrap.">
+    <link rel="canonical" href="https://starter-node-express-bootstrap.herokuapp.com/"/>
+
+    <!-- Facebook: https://developers.facebook.com/docs/sharing/webmasters/ -->
+    <meta property="og:url" content="https://starter-node-express-bootstrap.herokuapp.com/">
+    <meta property="og:title" content="Alectrify - Bootstrap Node.js/Express Template">
+    <meta property="og:description" content="Express, MongoDB, and Node.js template stylized with Bootstrap.">
+    <meta property="og:type" content="website">
+    <!-- Insert preview image tag: https://ogp.me/ -->
+
+    <!-- Twitter: https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@alectrify_co">
+    <meta name="twitter:creator" content="@alectrify_co">
+    <meta name="twitter:title" content="Alectrify - Bootstrap Node.js/Express Template">
+    <meta name="twitter:description" content="Express, MongoDB, and Node.js template stylized with Bootstrap.">
+    <!-- Insert preview image tag -->
+
+    <title>GTPay Corp</title>
+</head>
+
+<body>
+<%- include('layouts/navbar'); %>
+
+<main>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container py-4 py-md-5">
+            <div class="row align-items-center py-5">
+                <div class="col-md-7">
+                    <h1 class="display-3 fw-bold"><i class="fa fa-splotch"></i> Ví Điện Tử GTPay</h1>
+                    <p class="lead my-3">
+                        Tích hợp hàng trăm dịch vụ tiện ích đa dạng trên ví dành cho khách hàng
+                    </p>
+                    <p class="mb-0">
+                        <button type="button" class="btn-pill btn-lg btn-primary me-3" data-bs-toggle="modal"
+                                data-bs-target="#signupModal">Trải nghiệm ngay
+                        </button>
+                        <a class="btn-pill btn-lg btn-info" href="#principles">Tìm hiểu thêm</a>
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="/assets/gtpay-mobile-app.png" alt="Man with an idea" class="w-100">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Principles Section -->
+    <section id="principles" class="bg-primary text-dark">
+        <div class="container py-4 py-md-5">
+            <h1 class="font-slab">Giá trị mang lại</h1>
+            --------------------------------------
+            <br><br>
+            <br>
+            <div class="row">
+                <div class="col-md-3">
+                    <h2>Kết nối cộng đồng</h2>
+                    <p>
+                        Kết nối hàng triệu khách hàng và nhà bán hàng trên toàn quốc một cách dễ dàng, nhanh chóng và tiện lợi.
+                    </p>
+                </div>
+
+                <div class="col-md-3">
+                    <h2>Đa dạng tiện ích</h2>
+                    <p>
+                        Tích hợp hàng trăm dịch vụ tiện ích đa dạng trên ví dành cho khách hàng: thanh toán hóa đơn, thanh toán khoản vay, mua sắm thông minh,....
+                    </p>
+                </div>
+
+                <div class="col-md-3">
+                    <h2>An toàn, bảo mật</h2>
+                    <p>
+                        Chứng nhận bảo mật an toàn đạt chuẩn quốc tế PCI DSS cấp độ 1 (cấp độ cao nhất) dành cho ví GTPay do tổ chức đánh giá chất lượng quốc tế Croxxbow Lab cấp.
+                    </p>
+                </div>
+
+                <div class="col-md-3">
+                    <h2>Thanh toán tiện lợi</h2>
+                    <p>
+                        Giao diện sử dụng đơn giản, hiện đại giúp khách hàng thực hiện thanh toán, giao dịch tiện lợi, nhanh chóng, dễ dàng.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-info text-light">
+        <div class="container py-4 py-md-5">
+            <h1 class="font-slab">Về chúng tôi</h1>
+            --------------------------------------
+            <br><br>
+            <br>
+            <div class="row">
+                <div class="col-md-8">
+                    <h2>Thông điệp</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin efficitur fringilla sapien sed
+                        posuere.
+                        Aenean arcu tellus, pellentesque id tristique eget, pretium vel metus. Mauris eu mi mauris.
+                        Fusce ac
+                        laoreet dui. Fusce vitae velit nunc.
+                    </p>
+                    <ul>
+                        <li>
+                            Lorem ipsum dolor sit amet
+                        </li>
+                        <li>
+                            Lorem ipsum dolor sit amet
+                        </li>
+                        <li>
+                            Lorem ipsum dolor sit amet
+                        </li>
+                    </ul>
+                    <br>
+                    <h2>Tầm nhìn</h2>
+                    <p>
+                        Vestibulum enim mauris, vehicula in ante ut, elementum tincidunt dui. Mauris vulputate malesuada
+                        mauris, hendrerit pellentesque tellus ultricies quis. Vivamus porttitor ullamcorper interdum.
+                        Sed blandit ipsum vel enim sollicitudin, quis facilisis magna aliquet.
+                    </p>
+                    <br>
+                    <h2>Sứ mệnh</h2>
+                    <p>
+                        Vestibulum enim mauris, vehicula in ante ut, elementum tincidunt dui. Mauris vulputate malesuada
+                        mauris, hendrerit pellentesque tellus ultricies quis. Vivamus porttitor ullamcorper interdum.
+                        Sed blandit ipsum vel enim sollicitudin, quis facilisis magna aliquet.
+                    </p>
+                    <br>
+                    <h2>Giá trị cốt lõi</h2>
+                    <p>
+                        Vestibulum enim mauris, vehicula in ante ut, elementum tincidunt dui. Mauris vulputate malesuada
+                        mauris, hendrerit pellentesque tellus ultricies quis. Vivamus porttitor ullamcorper interdum.
+                        Sed blandit ipsum vel enim sollicitudin, quis facilisis magna aliquet.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="/assets/meeting.png" alt="Workers at a meeting" class="w-100">
+                </div>
+            </div>
+
+        </div>
+    </section>
+</main>
+
+<%- include('layouts/footer'); %>
+
+<!-- Bundled JS: Bootstrap, jQuery, Lodash -->
+<script src="/scripts/bundle.js"></script>
+
+<!-- Custom JavaScript -->
+</body>
+</html>
